@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.6.2)
+  - FoldingCell (5.0.2)
+  - MASegmentedControl (0.0.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - FoldingCell
+  - MASegmentedControl
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FoldingCell
+    - MASegmentedControl
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  FoldingCell: f92eb5fb9842319e7cd08c71533c98408b785099
+  MASegmentedControl: 9b58f9ba3a562a739b63b29e4ca2b9dc4d9c62cb
+
+PODFILE CHECKSUM: 2a5ae38be7b93b2dfa0fe92918596cfd89337c61
+
+COCOAPODS: 1.11.3
