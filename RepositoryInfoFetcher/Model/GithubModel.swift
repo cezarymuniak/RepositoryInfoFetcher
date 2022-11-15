@@ -204,14 +204,6 @@ extension GithubModelElement {
     }
 }
 
-//
-// To parse values from Alamofire responses:
-//
-//   Alamofire.request(url).responseOwner { response in
-//     if let owner = response.result.value {
-//       ...
-//     }
-//   }
 
 // MARK: - Owner
 struct Owner: Codable {

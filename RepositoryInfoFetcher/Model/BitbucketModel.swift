@@ -57,14 +57,6 @@ extension Value {
     }
 }
 
-//
-// To parse values from Alamofire responses:
-//
-//   Alamofire.request(url).responseOwner { response in
-//     if let owner = response.result.value {
-//       ...
-//     }
-//   }
 
 // MARK: - Owner
 struct BitbucketOwner: Codable {
@@ -129,15 +121,6 @@ extension BitbucketOwner {
     }
 }
 
-//
-// To parse values from Alamofire responses:
-//
-//   Alamofire.request(url).responseLinks { response in
-//     if let links = response.result.value {
-//       ...
-//     }
-//   }
-
 // MARK: - Links
 struct Links: Codable {
     let linksSelf, avatar, html: Avatar
@@ -187,14 +170,6 @@ extension Links {
     }
 }
 
-//
-// To parse values from Alamofire responses:
-//
-//   Alamofire.request(url).responseAvatar { response in
-//     if let avatar = response.result.value {
-//       ...
-//     }
-//   }
 
 // MARK: - Avatar
 struct Avatar: Codable {
